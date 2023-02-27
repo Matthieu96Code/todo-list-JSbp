@@ -41,9 +41,22 @@ body {
   flex-direction: column;
 }
 
+#title {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   border-bottom: solid 1px gray;
   text-align: left;
+  flex-grow: 1;
+}
+
+#refresh-icon {
+  padding: 5px 12px 5px 12px;
+  background-color: white;
+  margin: auto;
+  border-bottom: solid 1px gray;
 }
 
 #task-form {
